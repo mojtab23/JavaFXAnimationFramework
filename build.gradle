@@ -20,6 +20,7 @@ repositories {
 dependencies {
 //    compile 'no.tornado:tornadofx:1.5.5'
     testCompile 'junit:junit:4.12'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 
 jar {
